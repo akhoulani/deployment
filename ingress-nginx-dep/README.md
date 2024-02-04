@@ -5,8 +5,7 @@
 Nginx Ingress Controller package
 
 ## Usage
-Testing KPT functionality
-
+THIS IS V2 !!!!!!
 ### Fetch the package
 
 ```sh
