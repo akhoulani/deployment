@@ -1,0 +1,22 @@
+apiVersion: kpt.dev/v1
+kind: Kptfile
+metadata: # kpt-merge: /ingress-nginx-dep
+  name: ingress-nginx-dep
+  annotations:
+    config.kubernetes.io/local-config: "true"
+    internal.kpt.dev/upstream-identifier: kpt.dev|Kptfile|default|ingress-nginx-dep
+upstream:
+  type: git
+  git:
+    repo: https://github.com/akhoulani/blueprints.git
+    directory: ingress-nginx
+    ref: ingress-nginx/v1
+upstreamLock:
+  type: git
+  git:
+    repo: https://github.com/akhoulani/blueprints.git
+    directory: ingress-nginx
+    ref: ingress-nginx/v1
+    commit: b882197672f66d4d92ffe2c74b77c49b6a5552ff
+info:
+  description: sample description
