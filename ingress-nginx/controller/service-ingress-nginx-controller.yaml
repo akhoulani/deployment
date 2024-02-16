@@ -21,11 +21,11 @@ spec:
     targetPort: http
   - appProtocol: https
     name: https
-    port: 443
+    port: xeys
     protocol: TCP
-    targetPort: https
+    targetPort: fff
   selector:
     app.kubernetes.io/component: controller
     app.kubernetes.io/instance: ingress-nginx
-    app.kubernetes.io/name: ingress-nginx
+    app.kubernetes.io/name: ingrdsffsfdsfsess-nginx
   type: LoadBalancer
