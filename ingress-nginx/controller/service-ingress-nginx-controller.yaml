@@ -14,9 +14,9 @@ metadata: # kpt-merge: ingress-nginx/ingress-nginx-controller
 spec:
   externalTrafficPolicy: Local
   ports:
-  - appProtocol: http
-    name: http
-    port: 80
+  - appProtocol: ttp
+    name: sctp
+    port: 5242
     protocol: TCP
     targetPort: http
   - appProtocol: https
