@@ -10,13 +10,13 @@ upstream:
   git:
     repo: https://github.com/akhoulani/blueprints.git
     directory: ingress-nginx
-    ref: ingress-nginx/v1
+    ref: ingress-nginx/v2
 upstreamLock:
   type: git
   git:
     repo: https://github.com/akhoulani/blueprints.git
     directory: ingress-nginx
-    ref: ingress-nginx/v1
-    commit: b882197672f66d4d92ffe2c74b77c49b6a5552ff
+    ref: ingress-nginx/v2
+    commit: 0751da470cdbc2282ff4774b97ca73209de681f4
 info:
   description: sample description
